@@ -1,0 +1,12 @@
+{application, rebar_mirror_deps_plugin,
+ [
+  {description, "Rebar plugin for mirror deps"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {module, []},
+  {env, []}
+ ]}.
