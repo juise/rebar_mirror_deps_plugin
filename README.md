@@ -10,7 +10,7 @@ Add the following to your top-level rebar.config (by example with [rebar_lock_de
         {rebar_lock_deps_plugin, ".*",
             {git, "git://github.com/seth/rebar_lock_deps_plugin.git", {branch, "master"}}},
         {rebar_mirror_deps_plugin, ".*",
-            {git, "git@github.com:juise/rebar_mirror_deps_plugin.git", {branch, "master"}}}
+            {git, "git://github.com/juise/rebar_mirror_deps_plugin.git", {branch, "master"}}}
     ]}.
 
     %% Plugin usage
